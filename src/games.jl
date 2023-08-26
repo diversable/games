@@ -1,5 +1,10 @@
 module games
 
-# write your code here
-include("mad_libs.jl")
+# include("mad_libs.jl")
+
+# include("guess_the_number.jl")
+
+include("computer_guesses_number.jl")
+
+
 end # games
