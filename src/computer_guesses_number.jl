@@ -30,7 +30,7 @@ function play_number_guess_computer()
     end
 end
 
-play_number_guess_computer()
+# play_number_guess_computer()
 
 
 

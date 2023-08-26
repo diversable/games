@@ -28,7 +28,5 @@ function guess_number_human()
 
 end
 
-guess_number_human()
-
 
 end

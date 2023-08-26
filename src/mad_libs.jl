@@ -38,6 +38,4 @@ function play_mad_libs()
 
 end
 
-play_mad_libs()
-
 end # module
