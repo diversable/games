@@ -16,15 +16,24 @@ function play_number_guess_computer()
     # randomly shuffle the array of guesses
     shuffled_guesses = shuffle(rng, guess_order)
 
+    number_of_guesses = []
+
     # loop through each guess and see if it's right...
     for guess in shuffled_guesses
 
         if guess == target_num
             println("\nThe computer guessed $guess and cracked the code!")
 
+            println()
+
+            println("The computer took $(length(number_of_guesses)) guesses to get the correct answer.")
+
+
             # stop the loop if we get the right answer
             break
         end
+
+        push!(number_of_guesses, guess)
 
         println("\nThe computer guessed $guess")
     end
