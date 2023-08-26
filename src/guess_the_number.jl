@@ -20,9 +20,11 @@ function guess_number_human()
 
         # if we are within +/- 2 of the target, give a hint
         if abs(target_num - guess) <= 2 && target_num != guess
-            println("\n You're getting close!")
+            println("\nYou're getting close!\n")
         end
     end
+
+    println()
 
     println("Nice job, you got it!")
 

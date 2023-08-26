@@ -1,9 +1,10 @@
 name = "games"
 uuid = "fa91d7ce-1b5b-4783-9de4-b13570bd95e6"
-authors = ["Diversable<dan.mantei@outlook.com>",]
+authors = ["Diversable<dan.mantei@outlook.com>"]
 version = "0.1.0"
 
 [deps]
+ProgressBars = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
 
 [compat]
 julia = "1.9"
