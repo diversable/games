@@ -33,7 +33,9 @@ function generate_toy_passwords()
 
 end
 
-
+if abspath(PROGRAM_FILE) == @__FILE__
+    generate_toy_passwords()
+end
 
 
 

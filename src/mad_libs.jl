@@ -38,4 +38,8 @@ function play_mad_libs()
 
 end
 
+if abspath(PROGRAM_FILE) == @__FILE__
+    play_mad_libs()
+end
+
 end # module

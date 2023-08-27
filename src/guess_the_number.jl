@@ -31,4 +31,8 @@ function guess_number_human()
 end
 
 
+if abspath(PROGRAM_FILE) == @__FILE__
+    guess_number_human()
+end
+
 end

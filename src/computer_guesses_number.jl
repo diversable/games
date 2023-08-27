@@ -39,8 +39,9 @@ function play_number_guess_computer()
     end
 end
 
-# play_number_guess_computer()
-
+if abspath(PROGRAM_FILE) == @__FILE__
+    play_number_guess_computer()
+end
 
 
 

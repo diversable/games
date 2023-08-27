@@ -41,6 +41,12 @@ function play_rock_paper_scissors()
 
 end
 
+
+if abspath(PROGRAM_FILE) == @__FILE__
+    play_rock_paper_scissors()
+end
+
+
 # play_rock_paper_scissors()
 
 # entry = "stuff"
